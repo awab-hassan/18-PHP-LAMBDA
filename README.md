@@ -1,4 +1,4 @@
-# php-lambda-bref-scylladb
+# Project # 18 - PHP Lambda Bref Scylladb
 
 A proof-of-concept AWS Lambda function written in PHP 8.1 using [Bref](https://bref.sh/), connecting to a self-hosted ScyllaDB cluster over native CQL and returning query results as JSON. Built to validate PHP-on-Lambda connectivity to ScyllaDB before committing to the approach.
 
