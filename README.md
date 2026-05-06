@@ -11,20 +11,7 @@ A proof-of-concept AWS Lambda function written in PHP 8.1 using [Bref](https://b
 
 ## Architecture
 
-```
-Caller / API
-    |
-    v
-Lambda: bref-php-function-dev
-(PHP 8.1, provided.al2, 1024 MB, 6s timeout)
-    |
-    | CQL port 9042
-    v
-ScyllaDB cluster (self-hosted)
-    |
-    v
-{ statusCode: 200, body: { rows: [...] } }
-```
+![Architecture Diagram](./architecture.png)
 
 ## Stack
 
