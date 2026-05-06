@@ -17,19 +17,6 @@ A proof-of-concept AWS Lambda function written in PHP 8.1 using [Bref](https://b
 
 PHP 8.1 · Bref (`provided.al2`) · DataStax Cassandra PHP driver · AWS SAM · Lambda · CloudWatch Logs · ScyllaDB
 
-## Repository Layout
-
-```
-php-lambda-bref-scylladb/
-├── cf.yaml                     # SAM template (Lambda + IAM + CloudWatch)
-├── existing-function/
-│   ├── index.php               # Bref handler
-│   ├── composer.json
-│   └── composer.lock
-├── .gitignore
-└── README.md
-```
-
 ## Prerequisites
 
 - AWS SAM CLI
